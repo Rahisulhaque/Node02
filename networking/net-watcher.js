@@ -11,7 +11,7 @@ const
 	net= require('net'),
 
 
-	filiname = process.argv[2],
+	filename = process.argv[2],
 	server = net.createServer(function(connection){
 	//reporting
 	console.log('Subsriber connected');
